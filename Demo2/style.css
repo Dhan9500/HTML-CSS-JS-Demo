@@ -7,3 +7,94 @@ html,body{
     height: 100%;
     width: 100%;
 }
+#head{
+    height: 17%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    /* position: fixed; */
+    
+}
+#head img{
+    height: 80px;
+    width: 80px;
+    
+}
+#firstDiv{
+    display: flex;
+    height: 20px;
+    justify-content: space-between;
+    gap: 10px;
+    /* border: 1px solid red ; */
+    height: 40%;
+    margin: 10px;
+    align-items: center;
+    /* align-content: space-between; */
+}
+.btn{
+    display: block;
+    /* padding: 20px; */
+    /* margin-top: 3px;
+    margin-bottom: 3px; */
+    /* padding-left: 8px;
+    padding-right: 8px; */
+    padding: 10px;
+    /* margin-right: 10px; */
+    /* align-items: center; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-items: center;
+    border: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#secondDiv{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+}
+#body{
+    height: 83%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* padding-top: 20px; */
+}
+#left{
+    background-color: blueviolet;
+    grid-row: 1/2;
+    border: 2PX solid red;
+    position: relative;
+}
+#right{
+    background-color: brown;
+    border: 2PX solid green;
+}
+#main{
+    display: flex;
+}
+#fm{
+    background-color: rgb(18, 193, 73);
+    padding: 10px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#insideForm{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+}
+#f1{
+    height: 30px;
+    width: 300px;
+    background-color: red;
+}
