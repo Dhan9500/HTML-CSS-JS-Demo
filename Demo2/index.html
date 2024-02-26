@@ -14,12 +14,12 @@
         <img src="secondry-logo.png" alt="Not found" />
         <div>
             <div id="firstDiv">
-                <button class="btn">Login</button>
-                <button class="btn">Register</button>
-                <button class="btn">Agent Login</button>
-                <button class="btn">Contact Us</button>
-                <button class="btn">Daily Deals</button>
-                <button class="btn">Alerts</button>
+                <button class="btn1" id="1">Login</button>
+                <button class="btn" id="a2">Register</button>
+                <button class="btn" id="a5">Agent Login</button>
+                <button class="btn" id="a4">Contact Us</button>
+                <button class="btn3" id="a3">Daily Deals</button>
+                <button class="btn" id="a6">Alerts</button>
                 <h4>24-Feb-2024 [16:47:38]</h4>
                 <h5>A-</h5>
                 <h5>A</h5>
@@ -28,16 +28,16 @@
             </div>
             <div id="secondDiv">
                 <i class="ri-home-4-fill"></i>
-                <button class="btn">IRCTC EXCLUSIVE</button>
-                <button class="btn">TRAIN</button>
-                <button class="btn">BUSES</button>
-                <button class="btn">FLIGHT</button>
-                <button class="btn">HOTELS</button>
-                <button class="btn">HOLIDAYS</button>
-                <button class="btn">LOYALTY</button>
-                <button class="btn">MEALS</button>
-                <button class="btn">PROMOTONS</button>
-                <button class="btn">MORE</button>
+                <button class="btn1" id="1">IRCTC EXCLUSIVE</button>
+                <button class="btn4" id="3">TRAINS</button>
+                <button class="btn" id="2">BUSES</button>
+                <button class="btn" id="4">FLIGHT</button>
+                <button class="btn" id="5">HOTELS</button>
+                <button class="btn" id="6">HOLIDAYS</button>
+                <button class="btn" id="7">LOYALTY</button>
+                <button class="btn" id="8">MEALS</button>
+                <button class="btn" id="9">PROMOTONS</button>
+                <button class="btn" id="10">MORE</button>
             </div>
         </div>
         <img src="logo.png" alt="" />
@@ -68,7 +68,10 @@
                     <div id="frm11">
                         <!-- <div id="from"><i class="ri-send-plane-fill"></i></div> -->
                         <div id="frm1" class="frmCommon"><input type="text"  placeholder="From" id="inp1"></div>
-                        <div id="frm2" class="frmCommon"><input type="text" placeholder="24/02/2024" id="inp2"></div>
+                        <div id="frm2" class="frmCommon"><input type="date"  placeholder="24/02/2024" id="inp2"></div>
+                        <script>
+                            document.getElementById("inp2").valueAsDate = new Date();
+                        </script>
                     </div>
                     <div id="arrow">
                         <i class="ri-arrow-up-down-line"></i>
@@ -93,6 +96,7 @@
         
         <div id="right">
             <h1>INDIAN RAILWAYS</h1>
+            <h5>Safety | Security | Punctuality</h5>
         </div>
     </div>
     </div>

@@ -10,11 +10,12 @@ body {
 }
 body{
   background-image: url(background.webp);
+  background-position: center;
 }
 #head {
   height: 17%;
   width: 100%;
-  background-color: aquamarine;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   padding-left: 30px;
@@ -35,15 +36,32 @@ body{
   margin: 10px;
   align-items: center;
 }
-.btn {
+button {
   display: block;
   padding: 10px;
   display: flex;
   align-items: center;
   justify-items: center;
   border: none;
-  font-weight: bolder;
+  font-weight: 300px;
   text-transform: uppercase;
+  color: black;
+  background-color: white;
+}
+.btn1{
+  background-color: #213d77;
+  color: white;
+  font-weight: bold;
+}
+.btn3{
+  color: rgb(245, 104, 28);
+  font-weight: bold;
+  /* text-decoration: underline; */
+}
+.btn4{
+  color: rgb(245, 104, 28);
+  font-weight: bolder;
+  text-decoration-line:underline;
 }
 
 #secondDiv {
@@ -55,10 +73,12 @@ body{
  
 #body{
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
     /* background-image: url(background.webp); */
     background-size: cover;
+    background-position: center;
     display: flex;
+
 }
 #left{
     height: 100%;
@@ -122,6 +142,11 @@ body{
     border: 2px solid green;
     margin-top: 5%;
     color: white;
+}
+#right h4{
+  font-weight: 20px;
+  font-size: 30px;
+
 }
 
 #log{
