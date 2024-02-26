@@ -8,10 +8,14 @@ body {
   height: 100%;
   width: 100%;
 }
+body{
+  background-image: url(background.webp);
+  background-position: center;
+}
 #head {
   height: 17%;
   width: 100%;
-  background-color: aquamarine;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   padding-left: 30px;
@@ -32,15 +36,32 @@ body {
   margin: 10px;
   align-items: center;
 }
-.btn {
+button {
   display: block;
   padding: 10px;
   display: flex;
   align-items: center;
   justify-items: center;
   border: none;
-  font-weight: bolder;
+  font-weight: 300px;
   text-transform: uppercase;
+  color: black;
+  background-color: white;
+}
+.btn1{
+  background-color: #213d77;
+  color: white;
+  font-weight: bold;
+}
+.btn3{
+  color: rgb(245, 104, 28);
+  font-weight: bold;
+  /* text-decoration: underline; */
+}
+.btn4{
+  color: rgb(245, 104, 28);
+  font-weight: bolder;
+  text-decoration-line:underline;
 }
 
 #secondDiv {
@@ -52,10 +73,12 @@ body {
  
 #body{
     height: 100%;
-    width: 100%;
-    background-image: url(background.webp);
+    /* width: 100%; */
+    /* background-image: url(background.webp); */
     background-size: cover;
+    background-position: center;
     display: flex;
+
 }
 #left{
     height: 100%;
@@ -120,6 +143,11 @@ body {
     margin-top: 5%;
     color: white;
 }
+#right h4{
+  font-weight: 20px;
+  font-size: 30px;
+
+}
 
 #log{
     width: 100%;
@@ -167,16 +195,17 @@ margin-right: 10%;
 }#frm5{
   padding-top: 32px;
 }
-#arrow{
-margin-left: 24%;
-margin-top: 10px;
-margin-bottom: 10px;
-height: 22px;
-width: 22px;
-background-color: rgb(251, 248, 254);
-border-radius: 50%;
-border: 1px solid black;
-}
+
+#arrow i{
+  margin-left: 24%;
+  margin-top: 8px;
+  margin-bottom:8px;
+  font-size: 20px;
+  background-color: rgb(251, 248, 254);
+  border-radius: 50%;
+  border: 1px solid black;
+  }
+
 ::placeholder {
   font-style: normal;
   color: black;
@@ -188,4 +217,13 @@ border: 1px solid black;
   height: 40px;
   width: 2vw;
   margin-left:30px;
+}
+#leftBottom{
+  height: 18%;
+  width: 100%;
+  background-color: white;
+  border: 2px solid yellow;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
 }
