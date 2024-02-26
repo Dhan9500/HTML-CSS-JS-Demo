@@ -2,104 +2,124 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div id="head">
-        <img src="secondry-logo.png" alt="Not found" />
+  <div id="head">
+    <img src="secondry-logo.png" alt="Not found" />
+    <div>
+      <div id="firstDiv">
+        <button class="btn1" id="1">Login</button>
+        <button class="btn" id="a2">Register</button>
+        <button class="btn" id="a5">Agent Login</button>
+        <button class="btn" id="a4">Contact Us</button>
+        <button class="btn3" id="a3">Daily Deals</button>
+        <button class="btn" id="a6">Alerts</button>
+        <h4 id="time">24-Feb-2024 [16:47:38]</h4>
+        <script src="script.js"></script>
+        <h5>A-</h5>
+        <h5>A</h5>
+        <h5>A+</h5>
+        <h5>हिंदी</h5>
+      </div>
+      <div id="secondDiv">
+        <i class="ri-home-4-fill"></i>
+        <button class="btn1" id="1">IRCTC EXCLUSIVE</button>
+        <button class="btn4" id="3">TRAINS</button>
+        <button class="btn" id="2">BUSES</button>
+        <button class="btn" id="4">FLIGHT</button>
+        <button class="btn" id="5">HOTELS</button>
+        <button class="btn" id="6">HOLIDAYS</button>
+        <button class="btn" id="7">LOYALTY</button>
+        <button class="btn" id="8">MEALS</button>
+        <button class="btn" id="9">PROMOTONS</button>
+        <button class="btn" id="10">MORE</button>
+      </div>
+    </div>
+    <img src="logo.png" alt="" />
+  </div>
+  <div id="body">
+    <div id="left">
+      <div class="leftBody" id="leftBody1">
+        <div class="pnrChart" id="pnrChart">
+          <div id="pnr">
+            <img src="pnr.png" alt="">PNR STATUS
+          </div>
+          <div id="chart">
+            <img src="chart.png" alt="">CHART/VACANCY
+          </div>
+        </div>
+        <div id="log" class="log">
+          <div id="div1">
+            <img src="logo_top_eng.jpg" alt="">
+          </div>
+          <div id="div2">
+            <h1>BOOK TICKET</h1>
+          </div>
+          <div id="div3">
+            <img src="G20_Logo.png" alt="">
+          </div>
+        </div>
+        <form action="">
+          <div id="frm11">
+            <!-- <div id="from"><i class="ri-send-plane-fill"></i></div> -->
+            <div id="frm1" class="frmCommon"><input type="text" placeholder="From" id="inp1"></div>
+            <div id="frm2" class="frmCommon"><input type="date" placeholder="24/02/2024" id="inp2"></div>
+            <script>
+              document.getElementById("inp2").valueAsDate = new Date();
+            </script>
+          </div>
+          <div id="arrow">
+            <i class="ri-arrow-up-down-line"></i>
+          </div>
+          <div id="frm22">
+            <div id="frm3" class="frmCommon"><input type="text" placeholder="To" id="inp3"></div>
+            <!-- <div id="frm4"><input type="text" placeholder="Classes" id="inp4"></div> -->
+            <div id="frm4">
+              <select name="Classes" id="inp4">
+                <option value="All Classes">All Classes</option>
+                <option value="Anubhuti Class (EA)">Anubhuti Class (EA)</option>
+                <option value="AC First Class (1A)">AC First Class (1A)</option>
+                <option value="Vistadome AC (EV)">Vistadome AC (EV)</option>
+                <option value="Exec. Chair Car (EC)">Exec. Chair Car (EC)</option>
+                <option value="AC 2 Tier (2A)">AC 2 Tier (2A)</option>
+                <option value="First Class (FC)">First Class (FC)</option>
+                <option value="AC 3 Tier (3A)">AC 3 Tier (3A)</option>
+                <option value="AC 3 Economy (3E)">AC 3 Economy (3E)</option>
+                <option value="Vistadome Chair Car (VC)">Vistadome Chair Car (VC)</option>
+                <option value="AC Chair Car (CC)">AC Chair Car (CC)</option>
+                <option value="Sleeper (SL)">Sleeper (SL)</option>
+                <option value="Vistadome Non AC (VS)">Vistadome Non AC (VS)</option>
+                <option value="Second Sitting (2S)">Second Sitting (2S)</option>
+              </select>
+            </div>
+          </div>
+          <div id="frm33">
+            <div id="frm5" class="frmCommon"><input type="text" placeholder="General" id="inp5"></div>
+          </div>
+
+        </form>
+
+      </div>
+      <div id="leftBottom">
         <div>
-            <div id="firstDiv">
-                <button class="btn1" id="1">Login</button>
-                <button class="btn" id="a2">Register</button>
-                <button class="btn" id="a5">Agent Login</button>
-                <button class="btn" id="a4">Contact Us</button>
-                <button class="btn3" id="a3">Daily Deals</button>
-                <button class="btn" id="a6">Alerts</button>
-                <h4>24-Feb-2024 [16:47:38]</h4>
-                <h5>A-</h5>
-                <h5>A</h5>
-                <h5>A+</h5>
-                <h5>हिंदी</h5>
-            </div>
-            <div id="secondDiv">
-                <i class="ri-home-4-fill"></i>
-                <button class="btn1" id="1">IRCTC EXCLUSIVE</button>
-                <button class="btn4" id="3">TRAINS</button>
-                <button class="btn" id="2">BUSES</button>
-                <button class="btn" id="4">FLIGHT</button>
-                <button class="btn" id="5">HOTELS</button>
-                <button class="btn" id="6">HOLIDAYS</button>
-                <button class="btn" id="7">LOYALTY</button>
-                <button class="btn" id="8">MEALS</button>
-                <button class="btn" id="9">PROMOTONS</button>
-                <button class="btn" id="10">MORE</button>
-            </div>
+          <a href="https://www.irctc.com/empanelment.html" target="_blank">Please click here for Empanelment for PAD
+            items for Catering.</a>
         </div>
-        <img src="logo.png" alt="" />
+      </div>
     </div>
-    <div id="body">
-        <div id="left">
-            <div class="leftBody" id="leftBody1">
-                <div class="pnrChart" id="pnrChart">
-                    <div id="pnr">
-                        <img src="pnr.png" alt="">PNR STATUS
-                    </div>
-                    <div id="chart">
-                        <img src="chart.png" alt="">CHART/VACANCY
-                    </div>
-                </div>
-                <div id="log" class="log">
-                    <div id="div1">
-                        <img src="logo_top_eng.jpg" alt="">
-                    </div>
-                    <div id="div2">
-                        <h1>BOOK TICKET</h1>
-                    </div>
-                    <div id="div3">
-                        <img src="G20_Logo.png" alt="">
-                    </div>
-                </div>
-                <form action="">
-                    <div id="frm11">
-                        <!-- <div id="from"><i class="ri-send-plane-fill"></i></div> -->
-                        <div id="frm1" class="frmCommon"><input type="text"  placeholder="From" id="inp1"></div>
-                        <div id="frm2" class="frmCommon"><input type="date"  placeholder="24/02/2024" id="inp2"></div>
-                        <script>
-                            document.getElementById("inp2").valueAsDate = new Date();
-                        </script>
-                    </div>
-                    <div id="arrow">
-                        <i class="ri-arrow-up-down-line"></i>
-                    </div>
-                    <div id="frm22">
-                        <div id="frm3" class="frmCommon"><input type="text" placeholder="To" id="inp3"></div>
-                        <div id="frm4"><input type="text" placeholder="Classes" id="inp4"></div>
-                    </div>
-                    <div id="frm33">
-                        <div id="frm5" class="frmCommon"><input type="text" placeholder="General" id="inp5"></div>
-                    </div>
 
-                </form>
-
-            </div>
-            <div id="leftBottom">
-                <div>
-                    <a href="https://www.irctc.com/empanelment.html" target="_blank">Please click here for Empanelment for PAD items for Catering.</a>
-                </div>
-            </div>
-        </div>
-        
-        <div id="right">
-            <h1>INDIAN RAILWAYS</h1>
-            <h5>Safety | Security | Punctuality</h5>
-        </div>
+    <div id="right">
+      <h1>INDIAN RAILWAYS</h1>
+      <h5>Safety | Security | Punctuality</h5>
     </div>
-    </div>
+  </div>
+  </div>
 </body>
 </div>
 </body>

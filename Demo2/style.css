@@ -3,18 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html,
 body {
   height: 100%;
   width: 100%;
 }
-body{
+
+body {
   background-image: url(background.webp);
   background-position: center;
 }
+
 #head {
   height: 17%;
   width: 100%;
+  /* height: 25vh;
+  width: 100%; */
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -23,10 +28,14 @@ body{
   padding-top: 20px;
   position: fixed;
 }
+
 #head img {
-  height: 80px;
-  width: 80px;
+  height: 80px; 
+   width: 80px;
+  /* height: 15vh;
+  width: 8vw; */
 }
+
 #firstDiv {
   display: flex;
   height: 20px;
@@ -36,6 +45,7 @@ body{
   margin: 10px;
   align-items: center;
 }
+
 button {
   display: block;
   padding: 10px;
@@ -48,20 +58,23 @@ button {
   color: black;
   background-color: white;
 }
-.btn1{
+
+.btn1 {
   background-color: #213d77;
   color: white;
   font-weight: bold;
 }
-.btn3{
+
+.btn3 {
   color: rgb(245, 104, 28);
   font-weight: bold;
   /* text-decoration: underline; */
 }
-.btn4{
+
+.btn4 {
   color: rgb(245, 104, 28);
   font-weight: bolder;
-  text-decoration-line:underline;
+  text-decoration-line: underline;
 }
 
 #secondDiv {
@@ -70,141 +83,160 @@ button {
   align-items: center;
   justify-content: center;
 }
- 
-#body{
-    height: 100%;
-    /* width: 100%; */
-    /* background-image: url(background.webp); */
-    background-size: cover;
-    background-position: center;
-    display: flex;
+
+#body {
+  height: 100%;
+  /* width: 100%; */
+  /* background-image: url(background.webp); */
+  background-size: cover;
+  background-position: center;
+  display: flex;
 
 }
-#left{
-    height: 100%;
-    width: 50%;
-    padding-left: 100px;
-    padding-top: 90px;
-    margin-top: 5%;
-    border: 2px solid red;
-}
-#leftBody1{
-    height:80%;
-    width: 100%;
-    border: 2px solid red;
-    background-color: aliceblue;
+
+#left {
+  height: 100%;
+  width: 50%;
+  padding-left: 100px;
+  padding-top: 90px;
+  margin-top: 5%;
+  border: 2px solid red;
 }
 
-#leftBody1 div{
-    display: flex;
-    justify-content: space-between;
-    
+#leftBody1 {
+  height: 80%;
+  width: 100%;
+  border: 2px solid red;
+  background-color: white;
 }
-#leftBody1 div div{
+
+#leftBody1 div {
   display: flex;
   justify-content: space-between;
-  
-}
-#leftBody1 div div{
-    justify-content: center;
-    align-items: center;
-    
-}
-.pnrChart{
-    background-color: white;
-}
-#pnr{
-    width: 40%;
-    height: 5vh;
-    background-color: blue;
-    text-align: center;
-    color: white;
-}
-#pnr img{
-    margin-left: 10px;
-}
-#chart{
-    width: 40%;
-    height: 5vh;
-    background-color: blue;
-    text-align: center;
-    color: white;
+
 }
 
-#right{
-    height: 100%;
-    width: 50%;
-    text-align: center;
-    font-size: 25px;
-    font-style: normal;
-    padding-left: 100px;
-    padding-top: 90px;
-    border: 2px solid green;
-    margin-top: 5%;
-    color: white;
+#leftBody1 div div {
+  display: flex;
+  justify-content: space-between;
+
 }
-#right h4{
+
+#leftBody1 div div {
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pnrChart {
+  background-color: white;
+}
+
+#pnr {
+  width: 40%;
+  height: 5vh;
+  background-color: #213d77;
+  text-align: center;
+  color: white;
+}
+
+#pnr img {
+  margin-left: 10px;
+}
+
+#chart {
+  width: 40%;
+  height: 5vh;
+  background-color:#213d77;
+  text-align: center;
+  color: white;
+}
+
+#right {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  padding-left: 100px;
+  padding-top: 90px;
+  border: 2px solid green;
+  margin-top: 5%;
+  color: whitesmoke;
+}
+
+#right h4 {
   font-weight: 20px;
   font-size: 30px;
 
 }
 
-#log{
-    width: 100%;
-    height: 107px;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 10px;
-    background-color:white;
+#log {
+  width: 100%;
+  height: 107px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  background-color: white;
 }
-#inp1{
-    height: 40px;
-    width: 21vw;
-    margin-left: 10%;
+
+#inp1 {
+  height: 40px;
+  width: 21vw;
+  margin-left: 10%;
 }
-#inp2{
+
+#inp2 {
   height: 40px;
   width: 14vw;
   margin-right: 10%;
 }
-#inp3{
+
+#inp3 {
   height: 40px;
   width: 21vw;
   margin-left: 10%;
 }
-#inp4{
-height: 40px;
-width: 14vw;
-margin-right: 10%;
+
+#inp4 {
+  height: 40px;
+  width: 14vw;
+  margin-right: 10%;
 }
-#inp1{
+
+#inp1 {
   height: 40px;
   width: 21vw;
   margin-left: 10%;
 }
-#inp5{
+
+#inp5 {
   height: 40px;
   width: 21vw;
   margin-left: 10%;
 }
-#frm1{
+
+#frm1 {
   padding-top: 30px;
 }
-#frm2{
+
+#frm2 {
   padding-top: 30px;
-}#frm5{
+}
+
+#frm5 {
   padding-top: 32px;
 }
 
-#arrow i{
+#arrow i {
   margin-left: 24%;
   margin-top: 8px;
-  margin-bottom:8px;
+  margin-bottom: 8px;
   font-size: 20px;
-  background-color: rgb(251, 248, 254);
+  background-color: rgb(214, 229, 240);
   border-radius: 50%;
   border: 1px solid black;
-  }
+}
 
 ::placeholder {
   font-style: normal;
@@ -212,13 +244,15 @@ margin-right: 10%;
   font-size: 16px;
   padding: 13px;
 }
-#from{
+
+#from {
   border: 2px solid red;
   height: 40px;
   width: 2vw;
-  margin-left:30px;
+  margin-left: 30px;
 }
-#leftBottom{
+
+#leftBottom {
   height: 18%;
   width: 100%;
   background-color: white;
