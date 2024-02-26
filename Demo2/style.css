@@ -178,6 +178,7 @@ button {
   justify-content: space-evenly;
   padding-top: 10px;
   background-color: white;
+  color: #213d77;
 }
 
 #inp1 {
@@ -240,9 +241,13 @@ button {
 
 ::placeholder {
   font-style: normal;
-  color: black;
+  /* color: black; */
+  color: rgb(72, 72, 249);
   font-size: 16px;
   padding: 13px;
+}
+#inp4,#inp2{
+  color: rgb(72, 72, 249);
 }
 
 #from {
@@ -260,17 +265,50 @@ button {
   display: flex;
   justify-content: center;
   padding-top: 10px;
+  font-weight: bold;
 }
 .frmbtn1{
   background-color: #fb792b;
-  margin-left: 30px;
-  margin: 30px;
+  margin-left: 31px;
+  margin-top: 18px;
+  border-radius: 10px;
+  height: 40px;
+  width: 8vw;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: none;
+  font-size: 14px;
 }
 .frmbtn2{
   background-color: #01bb0a;
   margin-right: 10%;
   height: 40px;
   width: 17vw;
-  border-radius: 7%;
-  margin-top: 30px;
+  border-radius: 10px;
+  margin-top: 18px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: none;
+  font-size: 14px;
+}
+#frm44{
+  margin-top: 20px;
+  margin-left: 31px;
+  margin-right: 200px;
+  font-weight: bold;
+  color: rgb(72, 72, 249);
+}
+#frm55{
+  margin-left: 31px;
+  margin-right: 200px;
+  font-weight: bold;
+  color: rgb(72, 72, 249);
+}
+#leftBottom a{
+  color: rgb(72, 72, 249);
 }
