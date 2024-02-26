@@ -132,14 +132,60 @@ body {
 #inp1{
     height: 40px;
     width: 21vw;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 #inp2{
   height: 40px;
   width: 14vw;
-  margin-right: 5%;
+  margin-right: 10%;
 }
-#frm{
-  padding-top: 5px;
+#inp3{
+  height: 40px;
+  width: 21vw;
+  margin-left: 10%;
 }
-
+#inp4{
+height: 40px;
+width: 14vw;
+margin-right: 10%;
+}
+#inp1{
+  height: 40px;
+  width: 21vw;
+  margin-left: 10%;
+}
+#inp5{
+  height: 40px;
+  width: 21vw;
+  margin-left: 10%;
+}
+#frm1{
+  padding-top: 30px;
+}
+#frm2{
+  padding-top: 30px;
+}#frm5{
+  padding-top: 32px;
+}
+#arrow{
+margin-left: 24%;
+margin-top: 10px;
+margin-bottom: 10px;
+height: 22px;
+width: 22px;
+background-color: rgb(251, 248, 254);
+border-radius: 50%;
+border: 1px solid black;
+}
+::placeholder {
+  font-style: normal;
+  color: black;
+  font-size: 16px;
+  padding: 13px;
+}
+#from{
+  border: 2px solid red;
+  height: 40px;
+  width: 2vw;
+  margin-left:30px;
+}
