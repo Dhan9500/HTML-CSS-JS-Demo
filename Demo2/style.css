@@ -8,6 +8,9 @@ body {
   height: 100%;
   width: 100%;
 }
+body{
+  background-image: url(background.webp);
+}
 #head {
   height: 17%;
   width: 100%;
@@ -53,7 +56,7 @@ body {
 #body{
     height: 100%;
     width: 100%;
-    background-image: url(background.webp);
+    /* background-image: url(background.webp); */
     background-size: cover;
     display: flex;
 }
@@ -167,16 +170,17 @@ margin-right: 10%;
 }#frm5{
   padding-top: 32px;
 }
-#arrow{
-margin-left: 24%;
-margin-top: 10px;
-margin-bottom: 10px;
-height: 22px;
-width: 22px;
-background-color: rgb(251, 248, 254);
-border-radius: 50%;
-border: 1px solid black;
-}
+
+#arrow i{
+  margin-left: 24%;
+  margin-top: 8px;
+  margin-bottom:8px;
+  font-size: 20px;
+  background-color: rgb(251, 248, 254);
+  border-radius: 50%;
+  border: 1px solid black;
+  }
+
 ::placeholder {
   font-style: normal;
   color: black;
@@ -188,4 +192,13 @@ border: 1px solid black;
   height: 40px;
   width: 2vw;
   margin-left:30px;
+}
+#leftBottom{
+  height: 18%;
+  width: 100%;
+  background-color: white;
+  border: 2px solid yellow;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
 }
