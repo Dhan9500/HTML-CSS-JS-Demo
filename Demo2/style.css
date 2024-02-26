@@ -188,7 +188,7 @@ button {
 
 #inp2 {
   height: 40px;
-  width: 14vw;
+  width: 17vw;
   margin-right: 10%;
 }
 
@@ -200,7 +200,7 @@ button {
 
 #inp4 {
   height: 40px;
-  width: 14vw;
+  width: 17vw;
   margin-right: 10%;
 }
 
@@ -225,7 +225,7 @@ button {
 }
 
 #frm5 {
-  padding-top: 32px;
+  padding-top: 30px;
 }
 
 #arrow i {
@@ -260,4 +260,17 @@ button {
   display: flex;
   justify-content: center;
   padding-top: 10px;
+}
+.frmbtn1{
+  background-color: #fb792b;
+  margin-left: 30px;
+  margin: 30px;
+}
+.frmbtn2{
+  background-color: #01bb0a;
+  margin-right: 10%;
+  height: 40px;
+  width: 17vw;
+  border-radius: 7%;
+  margin-top: 30px;
 }
