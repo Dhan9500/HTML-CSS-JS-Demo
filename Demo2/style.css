@@ -100,13 +100,13 @@ button {
   padding-left: 100px;
   padding-top: 90px;
   margin-top: 5%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 #leftBody1 {
   height: 80%;
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: white;
 }
 
@@ -133,7 +133,7 @@ button {
 }
 
 #pnr {
-  width: 40%;
+  width: 49%;
   height: 5vh;
   background-color: #213d77;
   text-align: center;
@@ -145,7 +145,7 @@ button {
 }
 
 #chart {
-  width: 40%;
+  width: 49%;
   height: 5vh;
   background-color:#213d77;
   text-align: center;
@@ -160,7 +160,7 @@ button {
   font-style: normal;
   padding-left: 100px;
   padding-top: 90px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin-top: 5%;
   color: whitesmoke;
 }
@@ -168,6 +168,7 @@ button {
 #right h4 {
   font-weight: 20px;
   font-size: 30px;
+  
 
 }
 
@@ -179,6 +180,7 @@ button {
   padding-top: 10px;
   background-color: white;
   color: #213d77;
+  
 }
 
 #inp1 {
@@ -251,28 +253,30 @@ button {
 }
 
 #from {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 40px;
   width: 2vw;
   margin-left: 30px;
 }
 
 #leftBottom {
-  height: 18%;
+  height: 15%;
   width: 100%;
   background-color: white;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   display: flex;
   justify-content: center;
   padding-top: 10px;
+  margin-top: 7px;
   font-weight: bold;
 }
+
 .frmbtn1{
   background-color: #fb792b;
   margin-left: 31px;
   margin-top: 18px;
   border-radius: 10px;
-  height: 40px;
+  height: 35px;
   width: 8vw;
   text-align: center;
   color: white;
@@ -285,7 +289,7 @@ button {
 .frmbtn2{
   background-color: #01bb0a;
   margin-right: 10%;
-  height: 40px;
+  height: 35px;
   width: 17vw;
   border-radius: 10px;
   margin-top: 18px;
