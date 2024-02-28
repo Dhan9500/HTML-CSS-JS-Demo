@@ -1,0 +1,167 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  }
+  
+  html,body {
+	height: 100%;
+	width: 100%;
+  }
+  
+  #main {
+	height: 100%;
+	width: 100%;
+	/* background-color: grey; */
+  }
+  
+  #nav {
+	height: 14%;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	gap: 15px;
+	padding-right: 22px;
+	/* border: 2px solid red; */
+  }
+  
+  #nav i {
+	background-color: black;
+	border-radius: 50%;
+	color: white;
+	font-size: 15px;
+	padding: 9px;
+  }
+  
+  #center {
+	padding-left: 50px;
+	font-weight: 200;
+	background-color: white;
+	height: 21%;
+  }
+  
+  #center h1 {
+	font-weight: 200;
+	font-size: 2.2vw;
+	line-height: 2.5vw;
+  }
+  
+  #bottom {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 50px;
+	background-color: white;
+	height: 25%;
+  }
+  
+  #bottom p {
+	font-size: 16px;
+	font-weight: 300;
+  }
+  
+  .elem {
+	padding: 10px 0;
+	width: 200px;
+	border-top: 2px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .elem a {
+	text-decoration: none;
+	color: black;
+	font-weight: 400;
+  
+  }
+  
+  .elem i {
+	color: black;
+	font-weight: 400;
+	opacity: 0;
+  }
+  
+  .elem:hover i {
+	opacity: 1;
+  }
+  
+  .elem:hover i {
+	opacity: 1;
+  }
+  
+  .elem:hover {
+	background-color: #e9e7e7;
+  }
+  #footer{
+	height: 39.8%;
+	width: 100%;
+  }
+  #footer img{
+	height:100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+  }
+  @media(max-width:600px){
+	#nav {
+		height: 7%;
+		width: 100%;
+		background-color: white;
+		display: flex;
+		align-items: center;
+		justify-content: end;
+		gap:20px;
+		padding-right: 17px;
+		/* border: 2px solid red; */
+	  }
+	  
+	  #nav i {
+		background-color: black;
+		border-radius: 50%;
+		color: white;
+		font-size: 12px;
+		padding: 7px;
+	  }
+
+	  #center {
+		padding-left: 50px;
+		background-color: white;
+		height: 21%;
+		padding-top: 25px;
+	  }
+	  
+	  #center h1 {
+		font-weight: 400;
+		font-size: 9vw;
+		line-height: 9vw; 
+	  }
+	  #bottom {
+		/* display: flex; */
+		display: block;
+		justify-content: space-between;
+		padding-top: 1px;
+		padding-left: 50px;
+		background-color: white;
+		height: 33%;
+		/* border: 2px solid red; */
+	  }
+	  
+	  #bottom p {
+		font-size: 19px;
+		font-weight: 350;
+		padding-bottom:22px;
+
+	  }
+	  .elem i {
+		color: black;
+		font-weight: 400;
+		opacity: 1;
+	  }
+	  .elem:hover {
+		background-color: white;
+	  }
+	  
+  }
