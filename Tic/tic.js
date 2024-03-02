@@ -36,94 +36,159 @@ function enableClick() {
 function reset() {
     for (let i = 0; i <= 8; i++) {
         tdata[i].textContent = ""
+        tdata[i].style.textDecoration='none'
     }
     count = 1;
     h3.textContent = '';
+    h3.style.color='Black';
     enableClick();
     chanceX();
 }
 btn.addEventListener('click', reset)
 
 function result() {
-    console.log('function invoked')
     if ((tdata[0].textContent == 'X' && tdata[1].textContent == 'X' && tdata[2].textContent == 'X') || (tdata[0].textContent == 'O' && tdata[1].textContent == 'O' && tdata[2].textContent == 'O')) {
         if (tdata[0].textContent == 'X') {
             h3.textContent = "Congratulations X You win the game";
             disableClick();
+            tdata[0].style.textDecoration='line-through'
+            tdata[1].style.textDecoration='line-through'
+            tdata[2].style.textDecoration='line-through'
+            
         }
         else {
             h3.textContent = "Congratulations O You win the game";
             disableClick();
+            tdata[0].style.textDecoration='line-through'
+            tdata[1].style.textDecoration='line-through'
+            tdata[2].style.textDecoration='line-through'
+            
         }
     }
     if ((tdata[3].textContent == 'X' && tdata[4].textContent == 'X' && tdata[5].textContent == 'X') || (tdata[3].textContent == 'O' && tdata[4].textContent == 'O' && tdata[5].textContent == 'O')) {
         if (tdata[3].textContent == 'X') {
             h3.textContent = "Congratulations X You win the game";
             disableClick();
+            tdata[3].style.textDecoration='line-through'
+            tdata[4].style.textDecoration='line-through'
+            tdata[5].style.textDecoration='line-through'
+            
         }
         else {
             h3.textContent = "Congratulations O You win the game";
             disableClick();
+            tdata[3].style.textDecoration='line-through'
+            tdata[4].style.textDecoration='line-through'
+            tdata[5].style.textDecoration='line-through'
+            
         }
     }
     if ((tdata[6].textContent == 'X' && tdata[7].textContent == 'X' && tdata[8].textContent == 'X') || (tdata[6].textContent == 'O' && tdata[7].textContent == 'O' && tdata[8].textContent == 'O')) {
         if (tdata[6].textContent == 'X') {
             h3.textContent = "Congratulations X You win the game";
             disableClick();
+            tdata[6].style.textDecoration='line-through'
+            tdata[7].style.textDecoration='line-through'
+            tdata[8].style.textDecoration='line-through'
+            
         }
         else {
             h3.textContent = "Congratulations O You win the game";
             disableClick();
+            tdata[6].style.textDecoration='line-through'
+            tdata[7].style.textDecoration='line-through'
+            tdata[8].style.textDecoration='line-through'
+            
         }
     }
     if ((tdata[0].textContent == 'X' && tdata[3].textContent == 'X' && tdata[6].textContent == 'X') || (tdata[0].textContent == 'O' && tdata[3].textContent == 'O' && tdata[6].textContent == 'O')) {
         if (tdata[0].textContent == 'X') {
             h3.textContent = "Congratulations X You win the game";
             disableClick();
+            tdata[0].style.textDecoration='line-through'
+            tdata[3].style.textDecoration='line-through'
+            tdata[6].style.textDecoration='line-through'
+            
         }
         else {
             h3.textContent = "Congratulations O You win the game";
             disableClick();
+            tdata[0].style.textDecoration='line-through'
+            tdata[3].style.textDecoration='line-through'
+            tdata[6].style.textDecoration='line-through'
+            
         }
     }
     if ((tdata[1].textContent == 'X' && tdata[4].textContent == 'X' && tdata[7].textContent == 'X') || (tdata[1].textContent == 'O' && tdata[4].textContent == 'O' && tdata[7].textContent == 'O')) {
         if (tdata[1].textContent == 'X') {
             h3.textContent = "Congratulations X You win the game";
             disableClick();
+            tdata[1].style.textDecoration='line-through'
+            tdata[4].style.textDecoration='line-through'
+            tdata[7].style.textDecoration='line-through'
+            
         }
         else {
             h3.textContent = "Congratulations O You win the game";
             disableClick();
+            tdata[1].style.textDecoration='line-through'
+            tdata[4].style.textDecoration='line-through'
+            tdata[7].style.textDecoration='line-through'
+            
         }
     }
     if ((tdata[2].textContent == 'X' && tdata[5].textContent == 'X' && tdata[8].textContent == 'X') || (tdata[2].textContent == 'O' && tdata[5].textContent == 'O' && tdata[8].textContent == 'O')) {
         if (tdata[2].textContent == 'X') {
             h3.textContent = "Congratulations X You win the game";
             disableClick();
+            tdata[2].style.textDecoration='line-through'
+            tdata[5].style.textDecoration='line-through'
+            tdata[8].style.textDecoration='line-through'
+            
         }
         else {
             h3.textContent = "Congratulations O You win the game";
             disableClick();
+            tdata[2].style.textDecoration='line-through'
+            tdata[5].style.textDecoration='line-through'
+            tdata[8].style.textDecoration='line-through'
+            
         }
     }
     if ((tdata[0].textContent == 'X' && tdata[4].textContent == 'X' && tdata[8].textContent == 'X') || (tdata[0].textContent == 'O' && tdata[4].textContent == 'O' && tdata[8].textContent == 'O')) {
         if (tdata[0].textContent == 'X') {
             h3.textContent = "Congratulations X You win the game";
             disableClick();
+            tdata[0].style.textDecoration='line-through'
+            tdata[4].style.textDecoration='line-through'
+            tdata[8].style.textDecoration='line-through'
+            
         }
         else {
             h3.textContent = "Congratulations O You win the game";
             disableClick();
+            tdata[0].style.textDecoration='line-through'
+            tdata[4].style.textDecoration='line-through'
+            tdata[8].style.textDecoration='line-through'
+            
         }
     }
     if ((tdata[2].textContent == 'X' && tdata[4].textContent == 'X' && tdata[6].textContent == 'X') || (tdata[2].textContent == 'O' && tdata[4].textContent == 'O' && tdata[6].textContent == 'O')) {
         if (tdata[2].textContent == 'X') {
             h3.textContent = "Congratulations X You win the game";
             disableClick();
+            tdata[2].style.textDecoration='line-through'
+            tdata[4].style.textDecoration='line-through'
+            tdata[6].style.textDecoration='line-through'
+            
         }
         else {
             h3.textContent = "Congratulations O You win the game";
             disableClick();
+            tdata[2].style.textDecoration='line-through'
+            tdata[4].style.textDecoration='line-through'
+            tdata[6].style.textDecoration='line-through'
+            
         }
     }
 }
@@ -142,9 +207,12 @@ tdata[0].addEventListener('click', function () {
         count++;
     }
     result();
+    if(count==10 && h3.textContent==''){
+        h3.textContent='Game Tie';
+        h3.style.color='red';
+    }
 
 })
-
 tdata[1].addEventListener('click', function () {
     if (count % 2 == 0 && tdata[1].textContent == '') {
         chanceX();
@@ -157,9 +225,12 @@ tdata[1].addEventListener('click', function () {
         count++;
     }
     result();
+    if(count==10 && h3.textContent==''){
+        h3.textContent='Game Tie';
+        h3.style.color='red';
+    }
 
 })
-
 tdata[2].addEventListener('click', function () {
     if (count % 2 == 0 && tdata[2].textContent == '') {
         chanceX();
@@ -172,6 +243,10 @@ tdata[2].addEventListener('click', function () {
         count++;
     }
     result();
+    if(count==10 && h3.textContent==''){
+        h3.textContent='Game Tie';
+        h3.style.color='red';
+    }
 
 })
 tdata[3].addEventListener('click', function () {
@@ -186,6 +261,10 @@ tdata[3].addEventListener('click', function () {
         count++;
     }
     result();
+    if(count==10 && h3.textContent==''){
+        h3.textContent='Game Tie';
+        h3.style.color='red';
+    }
 })
 tdata[4].addEventListener('click', function () {
     if (count % 2 == 0 && tdata[4].textContent == '') {
@@ -199,6 +278,10 @@ tdata[4].addEventListener('click', function () {
         count++;
     }
     result();
+    if(count==10 && h3.textContent==''){
+        h3.textContent='Game Tie';
+        h3.style.color='red';
+    }
 })
 tdata[5].addEventListener('click', function () {
     if (count % 2 == 0 && tdata[5].textContent == '') {
@@ -212,12 +295,17 @@ tdata[5].addEventListener('click', function () {
         count++;
     }
     result();
+    if(count==10 && h3.textContent==''){
+        h3.textContent='Game Tie';
+        h3.style.color='red';
+    }
 })
 tdata[6].addEventListener('click', function () {
     if (count % 2 == 0 && tdata[6].textContent == '') {
         chanceX();
         tdata[6].textContent = 'O';
         count++;
+        console.log(count)
     }
     else if (count % 2 != 0 && tdata[6].textContent == '') {
         chanceO();
@@ -225,6 +313,10 @@ tdata[6].addEventListener('click', function () {
         count++;
     }
     result();
+    if(count==10 && h3.textContent==''){
+        h3.textContent='Game Tie';
+        h3.style.color='red';
+    }
 })
 tdata[7].addEventListener('click', function () {
     if (count % 2 == 0 && tdata[7].textContent == '') {
@@ -238,6 +330,10 @@ tdata[7].addEventListener('click', function () {
         count++;
     }
     result();
+    if(count==10 && h3.textContent==''){
+        h3.textContent='Game Tie';
+        h3.style.color='red';
+    }
 })
 tdata[8].addEventListener('click', function () {
     if (count % 2 == 0 && tdata[8].textContent == '') {
@@ -251,5 +347,10 @@ tdata[8].addEventListener('click', function () {
         count++;
     }
     result();
+    if(count==10 && h3.textContent==''){
+        h3.textContent='Game Tie';
+        h3.style.color='red';
+    }
 })
+
 
