@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container .jumbotron {
+    background-color: green;
+    color: whitesmoke;
+}
+
+#table {
+    display: flex;
+    align-items: center;
+    /* padding-left: 400px; */
+    justify-content: space-evenly;
+}
+#table h2{
+    border: 2px solid red;
+    border-radius: 25px;
+    width: 200px ;
+    text-align: center;
+    font-size: 26px;
+    padding: 5px;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+    border: 4px solid rebeccapurple;
+    left: 100px;
+    color: red;
+    text-align: center;
+    font-size: 80px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    margin-right: 32px;
+}
+
+#result h3 {
+    text-align: center;
+}
